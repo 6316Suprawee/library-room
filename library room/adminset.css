@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto',sans-serif;
+}
+.head{
+    background:orangered;
+    width: 100%;
+    height: 80px;
+    margin-bottom: 1rem;
+}
+.head h1{
+    margin-bottom:20px;
+    margin-top: -80px;
+    margin-left: 100px;
+}
+h2{
+    justify-content: center;
+    text-align: center;
+    list-style: none;
+    margin:0 20px;
+    background-image: 
+    linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;  
+    animation: move 35s linear infinite;
+}
+.logout button{
+    float: right;
+    border: none;
+    height: 50px;
+    width: 150px;
+    outline: none;
+    text-align: center;
+    border-radius: 5px;
+    transition: .5s;
+    cursor: pointer;
+    background:white;
+    border: 1px solid wheat;
+    color: black;
+    margin-top: -50px;
+}
+
+.logout button:hover{
+    background: white;
+    color: red;
+    border: 1px solid green;
+}
+
+.head img{
+    display: flex;
+    width: 80px;
+    height: 80px;
+}
+
+.contentmain{
+    text-align: center;
+}
+.contentmain table{
+    display: flex;
+    justify-content: space-around
+}
+.addjong{
+    border: none;
+    height: 50px;
+    width: 80px;
+    outline: none;
+    text-align: center;
+    border-radius: 5px;
+    transition: .5s;
+    cursor: pointer;
+    background:skyblue;
+    border: 1px solid wheat;
+    color: black;
+    margin-top: 10px;
+}
+
+.addjong:hover{
+    background: white;
+    color: green;
+    border: 1px solid green;
+}
+
+.glub button{
+    border: none;
+    height: 50px;
+    width: 150px;
+    outline: none;
+    border-radius: 5px;
+    transition: .5s;
+    background:burlywood;
+    border: 1px solid wheat;
+    color: black;
+    margin-top: 1rem;
+}
+
+.glub button:hover{
+    background: white;
+    color: cyan;
+    border: 1px solid cyan;
+    
+}

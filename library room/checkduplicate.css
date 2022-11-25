@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto',sans-serif;
+}
+.head h1{
+    margin-top: -60px;
+}
+h5#fullname{
+    text-decoration: none;
+    text-align: center;
+    list-style: none;
+    margin:0 20px;
+    color:black;
+    float: left;
+}
+.brand img{
+    justify-content: left;
+    width: 60px;
+    height: 60px;
+}
+
+h2[title]{
+    justify-content: center;
+    text-align: center;
+    list-style: none;
+    margin:0 20px;
+    background-image: 
+    linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;  
+    animation: move 35s linear infinite;
+}
+
+.button{
+    margin-top: 10px;
+    margin-bottom: 50px;
+    text-align: center;
+    text-shadow: 0 0 10px rgba(0 0 0);
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 35px;
+    transition: .3s;
+}
+
+body{
+    background-image: url(https://img.freepik.com/premium-photo/simple-white-background-with-smooth-lines-light-colors_476363-5558.jpg?w=1060);
+}
+
+.button .button1{
+    height: 40px;
+    width: auto;
+    background:wheat;
+    border: 1px solid gainsboro;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 10px;
+    transition: .5s;
+    outline: none;
+    color: black;
+}
+.button .button2{
+    height: 40px;
+    width: auto;
+    background:wheat;
+    border: 1px solid gainsboro;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 10px;
+    transition: .5s;
+    outline: none;
+    color: black;
+}
+.button .button3{
+    height: 40px;
+    width: auto;
+    background:wheat;
+    border: 1px solid gainsboro;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 10px;
+    transition: .5s;
+    outline: none;
+    color: black;
+}
+.button button:hover{
+    background: white;
+    color: green;
+    border: 1px solid green;
+}
+
+#submit{
+    height: 40px;
+    width: auto;
+    cursor: pointer;
+    transition: .5s;
+    outline: none;
+    color: black;
+    background:skyblue;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    padding: 10px;
+}
+#submit:hover{
+    background: white;
+    color: black;
+    border: 1px solid skyblue;
+}

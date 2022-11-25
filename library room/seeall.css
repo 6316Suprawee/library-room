@@ -1,0 +1,84 @@
+.addjong{
+    border: none;
+    height: 30px;
+    width: 80px;
+    outline: none;
+    text-align: center;
+    border-radius: 5px;
+    transition: .5s;
+    cursor: pointer;
+    background:skyblue;
+    border: 1px solid wheat;
+    color: black;
+    margin-top: 10px;
+}
+
+.addjong:hover{
+    background: white;
+    color: green;
+    border: 1px solid green;
+}
+
+.tb table{
+    margin-left: 35%;
+    margin: auto;
+}
+
+.menu button{
+    height: 40px;
+    width: auto;
+    background:wheat;
+    border: 1px solid gainsboro;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 10px;
+    transition: .5s;
+    outline: none;
+}
+.menu button:hover{
+    background: white;
+    color: green;
+    border: 1px solid green;
+}
+
+@media (max-width:481px){
+    h2{
+        font-size: 15px;
+    }
+    h5,a{
+        font-size: 10px;
+    }
+    .tb table{
+        margin-left: -0px;
+    }
+    th,td{
+        font-size: 5px;
+        width: 10px;
+        padding: 10px;
+    }
+ }
+ @media(min-width: 481px) and (max-width:1200px){
+    h2{
+        font-size: 20px;
+    }
+    h5,a{
+        font-size: 20px;
+    }
+    .tb table{
+        margin: auto;
+        font-size: 10px;
+    }
+}
+@media(min-width:1200px){
+    .tb table{
+        margin:auto;
+        width: 800px;
+    }
+    h2{
+        font-size: 20px;
+    }
+    h5,a{
+        font-size: 20px;
+    }
+}

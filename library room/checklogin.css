@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto',sans-serif;
+}
+.check{
+    margin-top: 10rem;
+    text-align: center;
+}
+
+.head{
+    display: flex;
+    justify-content:left;
+    background:orangered;
+    width: 100%;
+    height: 80px;
+}
+img{
+    width: 100%;
+    height: 100%;
+}

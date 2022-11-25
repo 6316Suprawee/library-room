@@ -1,0 +1,45 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="buttonindex3.css">
+    <link rel="stylesheet" href="index3mobile.css">
+</head>
+<body>
+    <div class="cit"><img src="kmutnb.png"></div>
+<div class="block-login">
+    <div class="student-login">
+        <form action="check-login-admin.php" method="POST">
+            <div class="user-people">ADMIN</div>
+            <input type="text" name="code_admin"class="username" placeholder="Username"pattern="[Q][0-9]+"><br>
+            <input type="password" name="pass_admin"class="password" placeholder="Password"pattern="[0-9]+"><br>
+            <input type="submit"class="login" value="Login"><br>
+            <div class="menu">
+            <a class="index" href="index.html">HOME</a>
+            <a class="index2" href="index2.html">STUDENT</a><br>
+            </div>
+            <div class="changephoto">
+            <button type="button" onclick="mypicture1()">1</button>
+            <button type="button" onclick="mypicture2()">2</button>
+            <button type="button" onclick="mypicture3()">3</button>
+            </div>
+        </form>
+    </div>
+</div>
+<script src="cookie.js"></script>
+<script>
+      function mypicture1() {
+        document.body.style.backgroundColor = "#f3f3f3";
+        document.body.style.backgroundImage = "url('https://png.pngtree.com/background/20220725/original/pngtree-abstract-cogs-wheel-background-vector-illustration-eps10-picture-image_1760607.jpg')";
+      }
+      function mypicture2() {
+        document.body.style.backgroundColor = "#f3f3f3";
+        document.body.style.backgroundImage = "url('https://png.pngtree.com/background/20210711/original/pngtree-abstract-line-and-point-blue-gear-polygonal-low-poly-background-picture-image_1163650.jpg')";
+      }
+      function mypicture3() {
+        document.body.style.backgroundColor = "#f3f3f3";
+        document.body.style.backgroundImage = "url('https://png.pngtree.com/background/20210710/original/pngtree-blue-technology-glowing-lines-background-picture-image_986314.jpg')";
+      }
+</script>
+</body>
+</html>

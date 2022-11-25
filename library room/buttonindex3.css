@@ -1,0 +1,43 @@
+
+.menu{
+    margin-top: 10px;
+ }
+.menu a{
+    cursor: pointer;
+    margin-top: 10px;
+    color: rgb(13, 182, 233);
+ }
+ .menu a:hover{
+    color:rgb(49, 179, 16);
+    background: white;
+ }
+ .changephoto button{
+    border: none;
+    height: 30px;
+    width: 40px;
+    margin:10px;
+    outline: none;
+    text-align: center;
+    border-radius: 5px;
+    transition: .5s;
+    cursor: pointer;
+    background: wheat;
+    color:blue;
+    border: 1px solid black;
+ }
+ .changephoto button:hover{
+    color:rgb(49, 179, 16);
+    background: white;
+ }
+ .menu2{
+    margin-top: 10px;
+ }
+ .menu2 a{
+    cursor: pointer;
+    color: rgb(24, 9, 230);
+
+ }
+ .menu2 a:hover{
+    color:rgb(49, 179, 16);
+    background: white;
+ }

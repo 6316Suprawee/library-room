@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto',sans-serif;
+}
+.check{
+    margin-top: 10rem;
+    text-align: center;
+}
+
+.head{
+    display: flex;
+    background:orangered;
+    width: 100%;
+    height: 80px;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+
+h2{
+    padding-top: 15px;
+}
+.gif{
+    width: 250px;
+    height: 250px;
+}
+
+.head h1{
+    margin-bottom:20px;
+    margin-top: -80px;
+    margin-left: 100px;
+}
